@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MENU.CSS">
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reponsive.css" />
+    <link rel="stylesheet" href="MENU.JS" />
+</head>
+<div>
+<script language="javascript" src="MENU.JS"></script>
+<div class="full">
+<header>
+    <nav>
+        <div class="img-nav">
+            <img src="img/logo.png" alt="" />
+        </div>
+        <div class="content-nav">
+            <ul>
+                <li><a href="HOME.HTML">HOME</a></li>
+                <li><a href="CONTACT.html">CONTACT</a></li>
+                <li><a href="FOOD.HTML">food</a></li>
+                
+                <li><a href="studio.html">Reservations</a></li>
+
+            </ul>
+            <form>
+                <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <!-- The Modal -->
+        <button id="cart">
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            Giỏ Hàng
+        </button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Giỏ Hàng</h5>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                        <span class="cart-price cart-header cart-column">Giá</span>
+                        <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                    </div>
+                    <div class="cart-items">
+
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Tổng Cộng:</strong>
+                        <span class="cart-total-price">0VNĐ</span>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                    <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<!-- content -->
+
+<section class="wrapper">
+    <div class="products">
+        <ul>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="bia 1.png"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">BEER EAST WEST PALE ALE</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">51.000</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">+</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="lowsquare-46.png"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">BEER SAIGON ROSÉ</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">53.000</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">+</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="lowsquare-48.png"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">CRAFT BEER COFFEE VANILLA PORTER</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">60.000</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">+</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product no-margin">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="lowsquare-49.png"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">CRAFT BEER INDEPENDENCE STOUT</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">89.000</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">+</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="lowsquare-50.png"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">BEER MODERN BELGIAN BLONDE 
+                    </h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">45.000</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">+</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="lowsquare-51.png"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3"></h3>CRAFT BEER MODERN BELGIAN DARK
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">47.000</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">+</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="lowsquare-62-1.png"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">BEER MODERN BELGIAN BLONDE BEER FAR EAST IPA</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">42.000</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">+</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product no-margin">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="lowsquare-63.png"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">CRAFT BEER PACIFIC PILSNER</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">85.000</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">+</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="footer-item">
+        <div class="img-footer">
+            <img src="img/logo.png" alt="" />
+        </div>
+        <div class="social-footer">
+            <li><a target="_blank" href="lowsquare-64.png">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                
+
+        </div>
+    </div>
+    
+</footer>
+
+</div>
+
+</body>
+</html>
